@@ -11,15 +11,15 @@ This is the original implementation of the paper 'How Powerful are Graph Neural 
 
 ## Data Preparation
 
-### Step1: Download the pre-processed Datasets
+- Step1: Download the pre-processed Datasets
 
-### Step2: Use an atlas to segment the brain int ROIs and calculate the timecourses and Pearson correlations of the regions.
+- Step2: Use an atlas to segment the brain int ROIs and calculate the timecourses and Pearson correlations of the regions.
 
-### Step3: Prepare csv files with demographics and files path. see examples at the csvfiles.
+- Step3: Prepare csv files with demographics and files path. see examples at the csvfiles.
 
 ## Running models
 
-## Refer to main_{static/dynamic/baseline }.py sto train the respective model from each group. you can add custom models or custom datasets easily to the data.py or networks folders and use the same pipeline to run the new experiments.
+-  Refer to main_{static/dynamic/baseline }.py sto train the respective model from each group. you can add custom models or custom datasets easily to the data.py or networks folders and use the same pipeline to run the new experiments.
 
 
-## For hyperparameters tuning we recommend using the weights&biases sweep tool.
+- For hyperparameters tuning we recommend using the weights&biases sweep tool.
